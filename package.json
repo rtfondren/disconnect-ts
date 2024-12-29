@@ -1,31 +1,42 @@
 {
-  "name": "disconnect",
-  "description": "A full-featured Discogs API v2.0 client library",
-  "version": "1.2.2",
-  "keywords": ["discogs", "api", "client", "oauth"],
-  "homepage": "https://github.com/bartve/disconnect",
-  "bugs": "https://github.com/bartve/disconnect/issues",
+  "name": "disconnect-ts",
+  "description": "(fully typed) A full-featured Discogs API v2.0 client library",
+  "version": "0.0.1",
+  "keywords": [
+    "discogs",
+    "api",
+    "client",
+    "oauth"
+  ],
+  "homepage": "https://github.com/rtfondren/disconnect-ts",
+  "bugs": "https://github.com/rtfondren/disconnect-ts/issues",
   "license": "MIT",
-  "author": "Bart van Eijck <voodoo107@hotmail.com>",
+  "author": "Taylor Fondren <rtfondren@gmail.com>",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "./lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bartve/disconnect.git"
+    "url": "https://github.com/rtfondren/disconnect-ts.git"
   },
   "scripts": {
     "test": "node test/all.js"
   },
   "dependencies": {
+    "node": "^20.11.1",
     "oauth-1.0a": "2.x.x"
   },
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "fp-ts": "^2.16.9",
     "nock": "2.x.x",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1",
     "wru": "0.x.x"
-  },
-  "engines": {
-    "node": ">= 0.12.0"
   }
 }
